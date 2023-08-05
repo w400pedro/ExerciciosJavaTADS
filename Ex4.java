@@ -15,14 +15,14 @@ public class Ex4 {
 
     if(numero % 3 == 0 && numero % 5 != 0){
       System.out.println("Número é divisivel por 3");
-    }
-
-    if(numero % 5 == 0 && numero % 3 != 0){
+    }else if(numero % 5 == 0 && numero % 3 != 0){
       System.out.println("Número é divisivel por 5");
+    }else if(numero % 5 ==0 && numero % 3 == 0){
+      System.out.println("O número é divisivel por ambos");
+    }else{
+      System.out.println("O valor não é divisivel nem por 3 nem por 5");
     }
 
-    if(numero % 5 ==0 && numero % 3 == 0){
-      System.out.println("O número é divisivel por ambos");
-    }
+
     }
   }
